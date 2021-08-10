@@ -1,7 +1,7 @@
 FROM phusion/baseimage:focal-1.0.0-amd64
 
 ENV DOTNET_SDK_VERSION=5.0
-ENV TEAMCITY_VERSION=2021.1.1
+ENV TEAMCITY_VERSION=2021.1.2
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update && \
